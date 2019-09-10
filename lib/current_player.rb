@@ -3,6 +3,5 @@ def turn_count(board)
   board.each do |turn|
     puts "Turn is #{turn}"
     turns_taken += 1
-    end
   end
 end
